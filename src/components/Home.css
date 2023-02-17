@@ -1,0 +1,89 @@
+.home {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeCont {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.addContent {
+    margin-top: 200px;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad {
+    
+    margin-right: 200px;
+    width: 100%;
+    padding-top: 40px;
+}
+
+
+.homeContent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+
+.homeContent h1 {
+    text-align: left;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.homeContent h3 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: gray;
+    font-style: italic;
+}
+
+.homeContent h4 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+.homeContent p {
+    text-align: left;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.homeContent img {
+    width: 80%;
+}
+
+.storyCont {
+    border-top: 4px solid #004b53;
+    width: 80%;
+    
+}
+
+.storyCont p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 25px;
+}

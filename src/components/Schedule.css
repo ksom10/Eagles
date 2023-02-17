@@ -1,0 +1,55 @@
+.schedule {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.gameDate {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    align-items: center;
+    border-top: 1px solid grey;
+}
+
+.gameDate h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.gameDate h3{
+    font-weight: normal;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.gameInfo{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    align-items: center;
+}
+
+.gameInfo img{
+    width: 80px;
+    height: 80px;
+    object-fit: fill;
+    margin-top: 20px;
+}
+
+.gameInfo h1{
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.location {
+    display: flex;
+    width: 75%;
+}
+
+.location h1 {
+    margin-top: 60px;
+    font-size: 15px;
+    color: #7575a1;
+}

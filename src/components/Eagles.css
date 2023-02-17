@@ -1,0 +1,64 @@
+.title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.titleHeader{
+    width: 75%;
+    display: flex;
+    align-items: baseline;
+}
+
+.titleHeader h1{
+    font-size: 48px;
+}
+.roster {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.player {
+    width: 75%;
+    border-top: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.playerImg{
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.playerHeader{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.playerHeader p {
+    height: 30px;
+    width: 150px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.playerHeader h4{
+    width: 80px;
+    align-items: center;
+}
+
+.player p {
+    height: 80px;
+    width: 150px;
+    margin-left: 20px;
+}

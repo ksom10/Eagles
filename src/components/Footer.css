@@ -1,0 +1,45 @@
+footer {
+    background-color: #004b53;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+}
+
+h2{
+    color: white;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contact h4 {
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.linkFooter {
+    color: white;
+
+}
+
+.logoTwo {
+    height: 150px;
+}
+
+.logoTwo img {
+    height: 100%;
+    margin-top: 30px;
+}
